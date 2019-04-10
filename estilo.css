@@ -1,0 +1,80 @@
+      .jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background:url(https://www.scalevp.com/sites/default/files/designbig.jpg);
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+  font-family: 'Oswald', sans-serif;
+  background:rgba(255,255,255,1);
+  color:rgba(100,100,100,1);
+
+}
+.album {  animation-name: agua; 
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;}
+@keyframes agua {
+  from {
+    background: #f8bbd0;
+  }
+  to {
+    background: #b2ebf2;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 400;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+  .card {
+margin: 45px;
+}
